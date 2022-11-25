@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color:;
     padding: 0;
@@ -20,6 +22,8 @@ nav {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+    padding-left: 12px;
+    font-family: 'Pacifico', cursive;
 }
 
 .navigation {
@@ -28,9 +32,15 @@ nav {
 }
 
 .navigation a {
-    padding: 10px;
+    padding: 12px;
     color: #E5E7EB;
     font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #3882F6;
 }
 
 h1 {
@@ -52,10 +62,16 @@ h1 {
     flex-direction: column;
     text-align: left;
     margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-img {
     width: 400px;
+}
+
+.main-img img {
+    border: none;
+    border-radius: 20px;
 }
 
 .main-btn {
@@ -70,6 +86,13 @@ h1 {
     font-weight: bold;
 }
 
+.content {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .info-cards {
     display: flex;
     justify-content: center;
@@ -77,17 +100,19 @@ h1 {
 }
 
 .info-cards img {
+    padding: 20px;
     width: 150px;
     height: 150px;
     border: none;
-    border-radius: 8px;
+    border-radius: 30px;
 }
+
 
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 80px;
+    padding: 50px;
 }
 
 .quote strong {
@@ -128,6 +153,7 @@ button {
     flex: 1;
     text-align: left;
     color: #F9FAF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sign-action p {
